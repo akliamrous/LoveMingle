@@ -33,7 +33,6 @@ const https = require('https');
 const fs = require(`fs`);
 
 const app = express()
-const hostname = "134.209.15.30";
 const minute = 10;
 
 const certDir = `/etc/letsencrypt/live`;
